@@ -2,7 +2,7 @@ var bitcore = require('../bitcore');
 var Address = bitcore.Address;
 var bitcoreUtil = bitcore.util;
 var Script = bitcore.Script;
-var network = bitcore.networks.livenet;
+var network = bitcore.networks.cscnet;
 
 
 var script = ''; // write down your script here

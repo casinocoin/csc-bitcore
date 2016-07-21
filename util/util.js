@@ -488,7 +488,7 @@ var INT64_MAX = new Buffer('ffffffffffffffff', 'hex');
 exports.INT64_MAX = INT64_MAX;
 
 // How much of Bitcoin's internal integer coin representation
-// makes 1 BTC
+// makes 1 CSC
 exports.COIN = 100000000;
 exports.BIT = 100;
 

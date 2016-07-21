@@ -1,12 +1,16 @@
 {
-  "name": "bitcore",
-  "description": "Bitcoin Library",
+  "name": "csc-bitcore-v0.1",
+  "description": "Casinocoin Library",
   "version": "0.1.41",
   "author": {
-    "name": "Stephen Pair",
-    "email": "stephen@bitpay.com"
+    "name": "Andre Jochems",
+    "email": "andre.jochems@gmail.com"
   },
   "contributors": [
+    {
+      "name": "Andre Jochems",
+      "email": "andre.jochems@gmail.com"
+    },
     {
       "name": "Stefan Thomas",
       "email": "moon@justmoon.net"
@@ -37,8 +41,8 @@
     }
   ],
   "keywords": [
-    "bitcoin",
-    "btc",
+    "casinocoin",
+    "csc",
     "satoshi",
     "money",
     "currency",
@@ -47,7 +51,7 @@
   "main": "bitcore.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore.git"
+    "url": "https://github.com/casinocoin/csc-bitcore-v0.1.git"
   },
   "scripts": {
     "install": "node-gyp rebuild",

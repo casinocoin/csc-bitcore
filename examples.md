@@ -282,7 +282,7 @@ var run = function() {
     confirmations: 2
   }];
 
-  console.log('TX Data: BTC:' + amt + ' => ' + toAddress + ', change To:' + changeAddressString);
+  console.log('TX Data: CSC:' + amt + ' => ' + toAddress + ', change To:' + changeAddressString);
   console.log('Unspends Outputs:', utxos);
 
 
@@ -621,7 +621,7 @@ var run = function() {
   p('\tHex     : ' + buffertools.toHex(s.buffer));
   p('\tHuman   : ' + s.toHumanReadable());
   p('\tScript Hash: ' + buffertools.toHex(hash));
-  var a = new Address(networks.livenet.P2SHVersion, hash);
+  var a = new Address(networks.cscnet.P2SHVersion, hash);
   p('\tp2sh Addr: ' + a.toString());
 
 };
@@ -843,7 +843,7 @@ var bitcore = require('../bitcore');
 var Address = bitcore.Address;
 var bitcoreUtil = bitcore.util;
 var Script = bitcore.Script;
-var network = bitcore.networks.livenet;
+var network = bitcore.networks.cscnet;
 
 
 var script = ''; // write down your script here

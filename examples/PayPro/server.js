@@ -323,7 +323,7 @@ app.post('/-/pay', function(req, res, next) {
             conn.sendTx(tx);
           });
         } else {
-          print('No BTC network connection. Retrying...');
+          print('No CSC network connection. Retrying...');
           conn = peerman.getActiveConnection();
           retry();
         }
