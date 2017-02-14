@@ -17,6 +17,7 @@ var modules = [
   'lib/Base58',
   'lib/HierarchicalKey',
   'lib/BIP21',
+  'lib/BIP38',
   'lib/BIP39',
   'lib/BIP39WordlistEn',
   'lib/Block',
