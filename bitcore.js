@@ -53,6 +53,7 @@ Object.defineProperty(module.exports, 'BIP32', {
     return require('./lib/HierarchicalKey');
   }
 });
+requireWhenAccessed('BIP38', './lib/BIP38');
 requireWhenAccessed('BIP39', './lib/BIP39');
 requireWhenAccessed('BIP39WordlistEn', './lib/BIP39WordlistEn');
 requireWhenAccessed('Point', './lib/Point');

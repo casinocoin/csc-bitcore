@@ -10,8 +10,8 @@ exports.livenet = {
   addressVersion: 0x1C,
   privKeyVersion: 0x9C,
   P2SHVersion: 5,
-  hkeyPublicVersion: 0x0488c42e,
-  hkeyPrivateVersion: 0x0488e1f4,
+  hkeyPublicVersion: 0x0488B21E,
+  hkeyPrivateVersion: 0x0488ADE4,
   genesisBlock: {
     hash: hex('9c6eb8a9fe28ca1312de2eaea5cd6440ba817da353dcb71441a1886dafc9464f'),
     merkle_root: hex('e623301387da4ba03a489e88193991a37aec5d30870f3c9150f165cade04d373'),
@@ -23,14 +23,14 @@ exports.livenet = {
     bits: 504365040,
   },
   dnsSeeds: [
-    'seed.casinocoin.org',
-    'seed1.casinocoin.org',
-    'seed2.casinocoin.org',
-    'seed3.casinocoin.org',
     'seed1.casinocoin.info',
     'seed2.casinocoin.info',
     'seed3.casinocoin.info',
-    'seed4.casinocoin.info'
+    'seed4.casinocoin.info',
+    'seed.casinocoin.org',
+    'seed1.casinocoin.org',
+    'seed2.casinocoin.org',
+    'seed3.casinocoin.org'
   ],
   defaultClientPort: 9432
 };
